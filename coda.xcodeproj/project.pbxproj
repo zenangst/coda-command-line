@@ -11,6 +11,7 @@
 		BD7A19491961E0CE006F9F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A19481961E0CE006F9F3D /* main.m */; };
 		BD7A194D1961E0CE006F9F3D /* coda.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD7A194C1961E0CE006F9F3D /* coda.1 */; };
 		BD7A19551961E120006F9F3D /* coda in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD7A19421961E0CE006F9F3D /* coda */; };
+		BD7A19581961E1C9006F9F3D /* CodaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A19571961E1C9006F9F3D /* CodaProxy.m */; };
 		BD7A195A1961E294006F9F3D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7A19591961E294006F9F3D /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		BD7A19481961E0CE006F9F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD7A194B1961E0CE006F9F3D /* coda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coda-Prefix.pch"; sourceTree = "<group>"; };
 		BD7A194C1961E0CE006F9F3D /* coda.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = coda.1; sourceTree = "<group>"; };
+		BD7A19561961E1C9006F9F3D /* CodaProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaProxy.h; sourceTree = "<group>"; };
+		BD7A19571961E1C9006F9F3D /* CodaProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodaProxy.m; sourceTree = "<group>"; };
 		BD7A19591961E294006F9F3D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -91,6 +94,8 @@
 				BD7A19481961E0CE006F9F3D /* main.m */,
 				BD7A194C1961E0CE006F9F3D /* coda.1 */,
 				BD7A194A1961E0CE006F9F3D /* Supporting Files */,
+				BD7A19561961E1C9006F9F3D /* CodaProxy.h */,
+				BD7A19571961E1C9006F9F3D /* CodaProxy.m */,
 			);
 			path = coda;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7A19491961E0CE006F9F3D /* main.m in Sources */,
+				BD7A19581961E1C9006F9F3D /* CodaProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 				BD7A19521961E0CE006F9F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
