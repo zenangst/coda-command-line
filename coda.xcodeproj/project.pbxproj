@@ -10,6 +10,7 @@
 		BD7A19461961E0CE006F9F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7A19451961E0CE006F9F3D /* Foundation.framework */; };
 		BD7A19491961E0CE006F9F3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A19481961E0CE006F9F3D /* main.m */; };
 		BD7A194D1961E0CE006F9F3D /* coda.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD7A194C1961E0CE006F9F3D /* coda.1 */; };
+		BD7A19551961E120006F9F3D /* coda in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD7A19421961E0CE006F9F3D /* coda */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +23,16 @@
 				BD7A194D1961E0CE006F9F3D /* coda.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BD7A19541961E114006F9F3D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/local/bin;
+			dstSubfolderSpec = 0;
+			files = (
+				BD7A19551961E120006F9F3D /* coda in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -98,6 +109,7 @@
 				BD7A193E1961E0CE006F9F3D /* Sources */,
 				BD7A193F1961E0CE006F9F3D /* Frameworks */,
 				BD7A19401961E0CE006F9F3D /* CopyFiles */,
+				BD7A19541961E114006F9F3D /* CopyFiles */,
 			);
 			buildRules = (
 			);
