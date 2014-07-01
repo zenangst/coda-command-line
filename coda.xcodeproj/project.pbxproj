@@ -41,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD30AAFE1962920F0037A69C /* Coda2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coda2.h; sourceTree = "<group>"; };
+		BD30AAFF1962920F0037A69C /* SystemEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemEvents.h; sourceTree = "<group>"; };
 		BD7A19421961E0CE006F9F3D /* coda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = coda; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7A19451961E0CE006F9F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BD7A19481961E0CE006F9F3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +100,8 @@
 		BD7A19471961E0CE006F9F3D /* coda */ = {
 			isa = PBXGroup;
 			children = (
+				BD30AAFE1962920F0037A69C /* Coda2.h */,
+				BD30AAFF1962920F0037A69C /* SystemEvents.h */,
 				BD7A19481961E0CE006F9F3D /* main.m */,
 				BD7A194C1961E0CE006F9F3D /* coda.1 */,
 				BD7A194A1961E0CE006F9F3D /* Supporting Files */,
