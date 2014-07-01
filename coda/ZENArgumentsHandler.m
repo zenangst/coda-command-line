@@ -32,6 +32,7 @@ NSString * const ZENOptionDelimiter = @"-";
 
         [paths addObject:[NSString stringWithFormat:@"%@/%@", self.currentWorkingDirectory, argument]];
     }
+
     [mutableDictionary setObject:[options copy] forKey:@"options"];
     [mutableDictionary setObject:[paths copy] forKey:@"paths"];
 
