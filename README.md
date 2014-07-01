@@ -27,4 +27,4 @@ coda is a command-line tool for Coda 2.
 5. Create new Pull Request
 
 ## License
-coda-command-line is available under the MIT license. See the LICENSE file for more info.
+coda-command-line is available under the MIT license. See the [LICENSE](https://github.com/zenangst/coda-command-line/blob/master/LICENSE) file for more info.
