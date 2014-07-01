@@ -7,7 +7,15 @@
 //
 
 #import "CodaProxy.h"
+#import <AppKit/AppKit.h>
 
 @implementation CodaProxy
+
+- (void)openFile:(NSString *)path
+{
+    if (self.options) {
+        [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Coda 2"];
+    }
+}
 
 @end

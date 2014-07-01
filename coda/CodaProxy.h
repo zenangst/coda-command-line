@@ -11,4 +11,7 @@
 
 @interface CodaProxy : NSObject
 
+
+- (void)openFile:(NSString *)path;
+
 @end
