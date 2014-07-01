@@ -11,7 +11,7 @@
 @implementation ZENArgumentsHandler
 
 NSString * const ZENAbsolutePathDelimiter = @"/";
-NSString * const ZENOptionDelimiter = @"--";
+NSString * const ZENOptionDelimiter = @"-";
 
 - (NSDictionary *)process:(NSArray *)arguments
 {
