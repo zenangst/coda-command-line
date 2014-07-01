@@ -7,15 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZENArgumentsHandler.h"
+#import "CodaProxy.h"
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSArray *arguments = [[[NSProcessInfo processInfo] arguments] subarrayWithRange:NSMakeRange(1,(NSUInteger)argc-1)];
+        NSDictionary *environment = [[NSProcessInfo processInfo] environment];
+
+        CodaProxy *coda = [[CodaProxy alloc] init];
+        ZENArgumentsHandler *argumentsHandler = [[ZENArgumentsHandler alloc] init];
+
+        argumentsHandler.currentWorkingDirectory = environment[@"PWD"];
+        NSDictionary *processedArguments = [argumentsHandler process:arguments];
+        coda.options = processedArguments[@"options"];
+
+        for (NSString *path in processedArguments[@"paths"]) {
+            [coda openFile:path];
+        }
     }
     return 0;
 }
