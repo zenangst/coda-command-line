@@ -12,6 +12,9 @@ coda is a command-line tool for Coda 2.
 
     $ coda --new-window file1.m
     Opens files in a new Coda 2 window
+    
+    $ coda --respect-projects ~/Developer/project1/source.m ~/Developer/project2/source.m
+    Opens files inside respective projects
 
 ## Installation
 
