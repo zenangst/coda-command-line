@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8DDEAD6B-9997-4B12-A302-758D67346236</string>
+	<key>IDESourceControlProjectName</key>
+	<string>coda</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4049F223-6C2A-48CE-A59F-955162B6FCEB</key>
+		<string>https://github.com/zenangst/coda-command-line.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>coda.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4049F223-6C2A-48CE-A59F-955162B6FCEB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zenangst/coda-command-line.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4049F223-6C2A-48CE-A59F-955162B6FCEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4049F223-6C2A-48CE-A59F-955162B6FCEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coda</string>
+		</dict>
+	</array>
+</dict>
+</plist>
