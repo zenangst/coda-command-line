@@ -14,6 +14,7 @@
 		BD7A19581961E1C9006F9F3D /* CodaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A19571961E1C9006F9F3D /* CodaProxy.m */; };
 		BD7A195A1961E294006F9F3D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7A19591961E294006F9F3D /* ScriptingBridge.framework */; };
 		BD7A195D1961E86B006F9F3D /* ZENArgumentsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A195C1961E86B006F9F3D /* ZENArgumentsHandler.m */; };
+		BDC327921962752B00E8F7C8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC327911962752B00E8F7C8 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,7 @@
 		BD7A19591961E294006F9F3D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		BD7A195B1961E86B006F9F3D /* ZENArgumentsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZENArgumentsHandler.h; sourceTree = "<group>"; };
 		BD7A195C1961E86B006F9F3D /* ZENArgumentsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZENArgumentsHandler.m; sourceTree = "<group>"; };
+		BDC327911962752B00E8F7C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC327921962752B00E8F7C8 /* AppKit.framework in Frameworks */,
 				BD7A195A1961E294006F9F3D /* ScriptingBridge.framework in Frameworks */,
 				BD7A19461961E0CE006F9F3D /* Foundation.framework in Frameworks */,
 			);
@@ -85,6 +88,7 @@
 		BD7A19441961E0CE006F9F3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDC327911962752B00E8F7C8 /* AppKit.framework */,
 				BD7A19591961E294006F9F3D /* ScriptingBridge.framework */,
 				BD7A19451961E0CE006F9F3D /* Foundation.framework */,
 			);
