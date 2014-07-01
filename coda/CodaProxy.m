@@ -50,6 +50,17 @@
     return _availableOptions;
 }
 
+- (SystemEventsProcess *)bridge
+{
+    if (_bridge) {
+        return _bridge;
+    }
+
+    _bridge = [[[SBApplication applicationWithBundleIdentifier:@"com.apple.systemevents"] applicationProcesses] objectWithName:@"Coda 2"];
+
+    return _bridge;
+}
+
 #pragma mark - Private methods
 
 - (void)newWindow
