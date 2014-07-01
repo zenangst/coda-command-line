@@ -5,10 +5,13 @@ coda is a command-line tool for Coda 2.
 ## Usage
 
     $ coda file1.m file2.m file3.m
+    Open a series of files
 
     $ coda folder/*.m
+    Open all files in a folder with .m extension
 
     $ coda --new-window file1.m
+    Opens files in a new Coda 2 window
 
 ## Installation
 
