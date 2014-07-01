@@ -13,6 +13,7 @@
 		BD7A19551961E120006F9F3D /* coda in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD7A19421961E0CE006F9F3D /* coda */; };
 		BD7A19581961E1C9006F9F3D /* CodaProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A19571961E1C9006F9F3D /* CodaProxy.m */; };
 		BD7A195A1961E294006F9F3D /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7A19591961E294006F9F3D /* ScriptingBridge.framework */; };
+		BD7A195D1961E86B006F9F3D /* ZENArgumentsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A195C1961E86B006F9F3D /* ZENArgumentsHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		BD7A19561961E1C9006F9F3D /* CodaProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaProxy.h; sourceTree = "<group>"; };
 		BD7A19571961E1C9006F9F3D /* CodaProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodaProxy.m; sourceTree = "<group>"; };
 		BD7A19591961E294006F9F3D /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		BD7A195B1961E86B006F9F3D /* ZENArgumentsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZENArgumentsHandler.h; sourceTree = "<group>"; };
+		BD7A195C1961E86B006F9F3D /* ZENArgumentsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZENArgumentsHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				BD7A194A1961E0CE006F9F3D /* Supporting Files */,
 				BD7A19561961E1C9006F9F3D /* CodaProxy.h */,
 				BD7A19571961E1C9006F9F3D /* CodaProxy.m */,
+				BD7A195B1961E86B006F9F3D /* ZENArgumentsHandler.h */,
+				BD7A195C1961E86B006F9F3D /* ZENArgumentsHandler.m */,
 			);
 			path = coda;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7A195D1961E86B006F9F3D /* ZENArgumentsHandler.m in Sources */,
 				BD7A19491961E0CE006F9F3D /* main.m in Sources */,
 				BD7A19581961E1C9006F9F3D /* CodaProxy.m in Sources */,
 			);
