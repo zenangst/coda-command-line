@@ -16,7 +16,8 @@
 @property (nonatomic, retain) SystemEventsProcess *bridge;
 @property (nonatomic, retain) NSDictionary *options;
 @property (nonatomic, retain) NSDictionary *availableOptions;
+@property (nonatomic, retain) NSDictionary *sites;
 
-- (void)openFile:(NSString *)path;
+- (void)open:(NSString *)path;
 
 @end

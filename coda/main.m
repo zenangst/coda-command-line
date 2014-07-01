@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
         coda.options = processedArguments[@"options"];
 
         for (NSString *path in processedArguments[@"paths"]) {
-            [coda openFile:path];
+            [coda open:path];
         }
     }
     return 0;
