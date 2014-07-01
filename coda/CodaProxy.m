@@ -13,9 +13,7 @@
 
 - (void)openFile:(NSString *)path
 {
-    if (self.options) {
-        [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Coda 2"];
-    }
+    [[NSWorkspace sharedWorkspace] openFile:path withApplication:@"Coda 2"];
 }
 
 @end
