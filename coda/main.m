@@ -10,6 +10,8 @@
 #import "ZENArgumentsHandler.h"
 #import "CodaProxy.h"
 
+NSString * const ZENEnvironmentKey = @"CODA_TERMINAL";
+
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
@@ -20,7 +22,19 @@ int main(int argc, const char * argv[])
         ZENArgumentsHandler *argumentsHandler = [[ZENArgumentsHandler alloc] init];
 
         argumentsHandler.currentWorkingDirectory = environment[@"PWD"];
-        NSDictionary *processedArguments = [argumentsHandler process:arguments];
+        NSMutableDictionary *processedArguments = [NSMutableDictionary dictionaryWithDictionary:[argumentsHandler process:arguments]];
+
+        if (environment[ZENEnvironmentKey]) {
+            NSMutableArray *options = [NSMutableArray arrayWithArray:processedArguments[@"options"]];
+            NSArray *environmentOptions = [environment[ZENEnvironmentKey] componentsSeparatedByString:@" "];
+
+            for (NSString *option in environmentOptions) {
+                [options addObject:option];
+            }
+
+            processedArguments[@"options"] = [options copy];
+        }
+
         coda.options = processedArguments[@"options"];
 
         for (NSString *path in processedArguments[@"paths"]) {
