@@ -31,7 +31,7 @@
 - (void)open:(NSString *)path
 {
     if (self.sites) {
-        NSString *filePath = [[path stringByDeletingLastPathComponent] stringByExpandingTildeInPath];
+        NSString *filePath = [[[path stringByDeletingLastPathComponent] stringByExpandingTildeInPath] stringByResolvingSymlinksInPath];
         NSString *selectedSite;
         for (NSString *site in self.sites) {
             if ([filePath hasPrefix:site]) {
