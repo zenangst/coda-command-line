@@ -12,6 +12,7 @@
 @interface CodaProxy : NSObject
 
 @property (nonatomic, retain) NSDictionary *options;
+@property (nonatomic, retain) NSDictionary *availableOptions;
 
 - (void)openFile:(NSString *)path;
 
