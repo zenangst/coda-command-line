@@ -14,7 +14,7 @@
 @interface CodaProxy : NSObject
 
 @property (nonatomic, retain) SystemEventsProcess *bridge;
-@property (nonatomic, retain) NSDictionary *options;
+@property (nonatomic, retain) NSArray *options;
 @property (nonatomic, retain) NSDictionary *availableOptions;
 @property (nonatomic, retain) NSDictionary *sites;
 
